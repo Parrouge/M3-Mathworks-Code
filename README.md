@@ -54,12 +54,3 @@ All results, discussion and full technical details are in the PDF report.
 | **Second_Problem.py**        | Part II: linear & logistic regression forecasting of summer energy demand.                   | Python, NumPy, Pandas, scikit‑learn, Matplotlib     |
 | **Third_Problem.py**         | Part III: Monte Carlo vulnerability scoring and correlational analysis across neighborhoods.   | Python, Pandas                                    |
 | **README.md**                | This file.                                                                                    | —                                                  |
-
----
-
-## Installation
-
-1. Clone this repo.  
-   ```bash
-   git clone https://github.com/<your‑username>/m3‑challenge‑2025.git
-   cd m3‑challenge‑2025
