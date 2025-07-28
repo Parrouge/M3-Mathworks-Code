@@ -12,7 +12,7 @@ Climate change is driving more intense heat waves that hit vulnerable communitie
 
 1. **Model indoor temperatures** in non‑air‑conditioned homes during a 24‑hour heat wave.  
 2. **Predict peak energy demand** on the city’s power grid over the next 20 years, accounting for population changes, climate trends, and electric‑vehicle adoption.  
-3. **Score neighborhood vulnerability** to heat waves and grid failures using weighted factors and Monte Carlo sensitivity analysis to ensure robustness under real‑world variability—then translate findings into actionable recommendations.
+3. **Score neighborhood vulnerability** to heat waves and grid failures using weighted factors and Monte Carlo sensitivity analysis to ensure robustness under real‑world variability, then translate findings into actionable recommendations.
 
 All results, discussion and full technical details are in the PDF report.
 
@@ -34,7 +34,7 @@ All results, discussion and full technical details are in the PDF report.
 
 ### Part III (Third_Problem.py)
 - **Data Integration:** Merged neighborhood census and housing data into a single table.  
-- **Factor Selection:** Identified six key drivers—median income, fraction aged 65+, predicted peak indoor temperature, access to healthcare (distance‑based), vehicle ownership rate, and workforce participation.  
+- **Factor Selection:** Identified six key drivers: median income, fraction aged 65+, predicted peak indoor temperature, access to healthcare (distance‑based), vehicle ownership rate, and workforce participation.  
 - **Composite Scoring & Sensitivity Analysis:**  
   - Applied a tailored weighting scheme to combine factors into a baseline vulnerability metric.  
   - Conducted **1,000** Monte Carlo simulations per neighborhood—sampling each factor’s empirical distribution—to evaluate score stability and refine weights through correlational checks.  
@@ -52,7 +52,7 @@ All results, discussion and full technical details are in the PDF report.
 | **official2025m3_17621.pdf** | Full team report (Executive Summary, Parts I–III, Conclusions, References, Code Appendix).     | —                                                  |
 | **First_Problem.py**         | Part I: sinusoidal & heat‑transfer modeling of indoor temperatures.                           | Python, NumPy, SciPy, Matplotlib                   |
 | **Second_Problem.py**        | Part II: linear & logistic regression forecasting of summer energy demand.                   | Python, NumPy, Pandas, scikit‑learn, Matplotlib     |
-| **Third_Problem.py**         | Part III: Monte Carlo vulnerability scoring and correlational analysis across neighborhoods.   | Python, Pandas, Matplotlib                         |
+| **Third_Problem.py**         | Part III: Monte Carlo vulnerability scoring and correlational analysis across neighborhoods.   | Python, Pandas                                    |
 | **README.md**                | This file.                                                                                    | —                                                  |
 
 ---
