@@ -34,7 +34,7 @@ All results, discussion and full technical details are in the PDF report.
 
 ### Part III (Third_Problem.py)
 - **Data Integration:** Merged neighborhood census and housing data into a single table.  
-- **Factor Selection:** Identified six key drivers: median income, fraction aged 65+, predicted peak indoor temperature, access to healthcare (distance‑based), vehicle ownership rate, and workforce participation.  
+- **Factor Selection:** Identified six key drivers: median income, fraction aged 65+, predicted peak indoor temperature, access to healthcare (distance‑based), vehicle ownership rate, and workforce participation.  
 - **Composite Scoring & Sensitivity Analysis:**  
   - Applied a tailored weighting scheme to combine factors into a baseline vulnerability metric.  
   - Conducted **1,000** Monte Carlo simulations per neighborhood—sampling each factor’s empirical distribution—to evaluate score stability and refine weights through correlational checks.  
