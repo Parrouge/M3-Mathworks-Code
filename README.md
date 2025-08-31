@@ -49,7 +49,7 @@ All results, discussion and full technical details are in the PDF report.
 
 | File                         | Description                                                                                   | Technologies Used                                  |
 |------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------|
-| **official2025m3_17621.pdf** | Full team report (Executive Summary, Parts I–III, Conclusions, References, Code Appendix).     | Latex                                             |
+| **official2025m3_17621.pdf** | Full team report (Executive Summary, Parts I–III, Conclusions, References, Code Appendix).     | LaTex                                             |
 | **First_Problem.py**         | Part I: sinusoidal & heat‑transfer modeling of indoor temperatures.                           | Python, NumPy, SciPy, Matplotlib                   |
 | **Second_Problem.py**        | Part II: linear & logistic regression forecasting of summer energy demand.                   | Python, NumPy, Pandas, scikit‑learn, Matplotlib     |
 | **Third_Problem.py**         | Part III: Monte Carlo vulnerability scoring and correlational analysis across neighborhoods.   | Python, Pandas                                    |
